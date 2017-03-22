@@ -1099,6 +1099,10 @@ img.avatar {
     width: 400px;
 }
 
+#sign-out{
+    margin-bottom: 50px;
+}
+
 ul.chat{
     margin-top: 30px;
 }

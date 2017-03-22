@@ -6,12 +6,13 @@
     <page-breadcrumbs :title="title" :description="description"></page-breadcrumbs>
     <!-- Page Content -->
     <div v-if="getShowPage">
-      <img src="feathers.png" alt="Feathers Logo" class="logo">
       <div class="container">
         <div class="row">
           <div class="jumbotron">
             <div>
               <h1 class="center-text">Login Failed</h1>
+              <br />
+              <br />
               <h3 class="center-text">Something went wrong and we weren't able to log you in.
                 <nuxt-link to="/login">Please try again</nuxt-link>.</h3>
             </div>

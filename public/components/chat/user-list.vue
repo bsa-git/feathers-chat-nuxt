@@ -8,7 +8,7 @@
             </li>
         </ul>
         <br />
-        <div class="text-center">
+        <div id="sign-out" class="text-center">
             <a href="#" class="btn btn-primary" @click="logout">Sign Out</a>
         </div>
     </div>
