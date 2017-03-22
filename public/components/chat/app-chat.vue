@@ -1,5 +1,5 @@
 <template>
-  <div id="chat" class="container">
+  <div id="chat" v-if="getShowPage" class="container">
     <div class="row">
       <div class="col-md-6">
         <p id="chat-title" class="exotic">Chat for friends</p>
@@ -20,6 +20,7 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
   import UserList from '~/components/chat/user-list.vue'
   import MessageList from '~/components/chat/message-list.vue'
 
@@ -27,6 +28,9 @@
     components: {
       UserList,
       MessageList
-    }
+    },
+    computed: mapGetters([
+      'getShowPage',
+    ]),
   }
 </script>

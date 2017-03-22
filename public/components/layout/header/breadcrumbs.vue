@@ -23,7 +23,8 @@
     export default {
         props: ['title', 'description'],
         computed: mapGetters([
-            'getShowPage',
+            //'getShowHeader',
+            'getShowPage'
         ]),
     }
 </script>

@@ -16,6 +16,7 @@
       AppFooter
     },
     mounted: function () {
+      this.$store.commit('delayHeader')
       this.$store.commit('delayPage')
     },
   }

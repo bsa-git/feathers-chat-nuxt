@@ -45,6 +45,7 @@
     props: ['groupMenu'],
     computed: mapGetters({
       user: 'getUser',
+      //getShowHeader: 'getShowHeader'
       getShowPage: 'getShowPage'
     }),
     methods: {

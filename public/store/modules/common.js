@@ -1,5 +1,6 @@
 const state = {
   showPage: false,
+  showHeader: false,
   personal_data: {
     copyright: '© 2017  Sergei Beskorovainyi - All Rights Reserved',
     designed_with: 'BSA Lab',
@@ -23,6 +24,12 @@ const state = {
 }
 
 const mutations = {
+
+  delayHeader(state) {
+    setTimeout(function () {
+      state.showHeader = true
+    }, 100)
+  },
 
   delayPage(state) {
     setTimeout(function () {

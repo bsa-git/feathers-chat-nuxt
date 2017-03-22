@@ -28,6 +28,10 @@ var getNewMessage = function (state) {
 
 //--- Common ---//
 
+var getShowHeader = function (state) {
+    return state.common.showHeader;
+};
+
 var getShowPage = function (state) {
     return state.common.showPage;
 };
@@ -47,6 +51,7 @@ export default {
     getMessages,
     getNewMessage,
     //--- Common ---//
+    getShowHeader,
     getShowPage,
     getPersonalData
 }
