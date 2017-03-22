@@ -1,0 +1,15 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "nedb": "../data/",
+  "auth": {
+    "token": {
+      "secret": "+GJwhl9/93z1LNvxJ7xyIkEFFeqeErUYoub/Eeh4FIqLqr3j5nZoSt8UJkqogOP8iHUbJxo74R4L0OpRkZSFgw=="
+    },
+    "local": {},
+    "successRedirect": "/chat",
+    "shouldSetupSuccessRoute ": false,
+    "failureRedirect": "/login-failed",
+    "shouldSetupFailureRoute": false
+  }
+}
