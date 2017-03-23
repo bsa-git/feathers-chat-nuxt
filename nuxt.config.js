@@ -30,7 +30,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~assets/css/animate.css'],//'~assets/css/style.css',
+  css: ['~assets/css/animate.css'],
   /*
   ** Customize the progress-bar color
   */
